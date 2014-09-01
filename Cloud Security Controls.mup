@@ -185,7 +185,7 @@
           }
         },
         "0.5": {
-          "title": "Macquarie client authentication",
+          "title": "Client authentication",
           "id": 23,
           "ideas": {},
           "attr": {
