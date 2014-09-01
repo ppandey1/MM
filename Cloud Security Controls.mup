@@ -1,0 +1,257 @@
+{
+  "title": "Cloud Security Controls",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "1": {
+      "title": "System security.",
+      "id": 3,
+      "ideas": {
+        "1": {
+          "title": "Authorized Image.",
+          "id": 12
+        },
+        "2": {
+          "title": "OS Hardening.",
+          "id": 14
+        },
+        "3": {
+          "title": "Systems patching",
+          "id": 15
+        },
+        "4": {
+          "title": "Application Whitelisting",
+          "id": 16
+        },
+        "5": {
+          "title": "Malware scananing",
+          "id": 17
+        },
+        "4.5": {
+          "title": "Application Blacklisting",
+          "id": 18,
+          "attr": {
+            "style": {}
+          }
+        }
+      }
+    },
+    "-3": {
+      "title": "SDLC and Change management",
+      "id": 9,
+      "ideas": {
+        "1": {
+          "title": "Change management process",
+          "id": 47
+        },
+        "2": {
+          "title": "Changes performed at agreed time window",
+          "id": 49
+        },
+        "3": {
+          "title": "Continuous delivery",
+          "id": 50
+        }
+      }
+    },
+    "12.25": {
+      "title": "Application Security ",
+      "id": 5,
+      "attr": {
+        "position": [
+          442.5,
+          -344,
+          10
+        ],
+        "style": {}
+      },
+      "ideas": {
+        "1": {
+          "title": "HTTP content scanning",
+          "id": 20
+        },
+        "2": {
+          "title": "HTTPS content scanning",
+          "id": 21
+        },
+        "3": {
+          "title": "Alternate application content scanning",
+          "id": 22
+        }
+      }
+    },
+    "-1.25": {
+      "title": "Security Logging and Monitoring",
+      "id": 8,
+      "attr": {
+        "style": {},
+        "position": [
+          422.5,
+          85,
+          9
+        ]
+      },
+      "ideas": {
+        "1": {
+          "title": "Syslog enabled",
+          "id": 41
+        },
+        "2": {
+          "title": "Logs sent to SIEM",
+          "id": 42
+        },
+        "3": {
+          "title": "User access log",
+          "id": 43
+        },
+        "4": {
+          "title": "Firewall logs",
+          "id": 44
+        }
+      }
+    },
+    "-0.5": {
+      "title": "Network Security...",
+      "id": 7,
+      "attr": {
+        "style": {}
+      },
+      "ideas": {
+        "1": {
+          "title": "Proxy support",
+          "id": 28
+        },
+        "2": {
+          "title": "IDS",
+          "id": 29
+        },
+        "3": {
+          "title": "IPS & Packet inspection",
+          "id": 30
+        },
+        "4": {
+          "title": "DDoS protection",
+          "id": 31
+        },
+        "5": {
+          "title": "Firewall",
+          "id": 33
+        },
+        "6": {
+          "title": "Load balancing",
+          "id": 34
+        },
+        "7": {
+          "title": "Virtual private cloud security",
+          "id": 35
+        },
+        "8": {
+          "title": "Firewall configuration",
+          "id": 36
+        },
+        "9": {
+          "title": "Geo-Location",
+          "id": 37
+        },
+        "10": {
+          "title": "Security groups",
+          "id": 38
+        }
+      }
+    },
+    "22.25": {
+      "title": "Authentication and Access control",
+      "id": 6,
+      "attr": {
+        "style": {}
+      },
+      "ideas": {
+        "1": {
+          "title": "Password policy",
+          "id": 45
+        },
+        "2": {
+          "title": "Identity federation",
+          "id": 26,
+          "attr": {
+            "style": {}
+          }
+        },
+        "3": {
+          "title": "2-factor authentication",
+          "id": 27,
+          "attr": {
+            "style": {}
+          }
+        },
+        "0.5": {
+          "title": "Macquarie client authentication",
+          "id": 23,
+          "ideas": {},
+          "attr": {
+            "style": {},
+            "position": [
+              128.5,
+              -114,
+              1
+            ]
+          }
+        }
+      }
+    },
+    "32.25": {
+      "title": "Operational Controls",
+      "id": 10,
+      "attr": {
+        "style": {},
+        "position": [
+          142.5,
+          267,
+          8
+        ]
+      },
+      "ideas": {
+        "1": {
+          "title": "Storage selection",
+          "id": 51,
+          "attr": {
+            "style": {}
+          }
+        },
+        "2": {
+          "title": "Encryption",
+          "id": 52
+        },
+        "3": {
+          "title": "Backups",
+          "id": 53
+        },
+        "4": {
+          "title": "Server monitoring",
+          "id": 54
+        },
+        "5": {
+          "title": "Cryptographic controls",
+          "id": 55
+        },
+        "6": {
+          "title": "DNS",
+          "id": 56
+        },
+        "7": {
+          "title": "Cross border transfers",
+          "id": 57
+        },
+        "8": {
+          "title": "Restricted management console",
+          "id": 58
+        },
+        "9": {
+          "title": "Bastion Host",
+          "id": 59
+        }
+      }
+    }
+  },
+  "links": []
+}
