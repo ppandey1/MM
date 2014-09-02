@@ -27,6 +27,14 @@
               "title": "DB/Middleware/Other components",
               "id": 70
             }
+          },
+          "attr": {
+            "position": [
+              267.5,
+              -58,
+              1
+            ],
+            "style": {}
           }
         },
         "3": {
@@ -107,8 +115,8 @@
           },
           "attr": {
             "position": [
-              447,
-              81.5,
+              429,
+              37.5,
               1
             ],
             "style": {}
@@ -243,11 +251,17 @@
                       -169,
                       1
                     ]
-                  }
+                  },
+                  "ideas": {}
                 }
               },
               "attr": {
-                "style": {}
+                "style": {},
+                "position": [
+                  134,
+                  -148.625,
+                  2
+                ]
               }
             },
             "2": {
@@ -259,9 +273,9 @@
                   "attr": {
                     "style": {},
                     "position": [
-                      250,
-                      -32.75,
-                      3
+                      229,
+                      -5.375,
+                      5
                     ]
                   },
                   "ideas": {
@@ -286,6 +300,18 @@
                     ]
                   },
                   "id": 81
+                },
+                "0.5": {
+                  "title": "Layers...",
+                  "attr": {
+                    "style": {},
+                    "position": [
+                      252,
+                      -70.875,
+                      4
+                    ]
+                  },
+                  "id": 84
                 }
               },
               "attr": {
@@ -425,6 +451,14 @@
           "id": 60
         }
       }
+    },
+    "-1": {
+      "title": "Security Organization",
+      "id": 85
+    },
+    "-2": {
+      "title": "BCP /DR",
+      "id": 86
     }
   },
   "links": []
