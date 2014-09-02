@@ -4,16 +4,30 @@
   "formatVersion": 2,
   "ideas": {
     "1": {
-      "title": "System security.",
+      "title": "Systems security",
       "id": 3,
       "ideas": {
         "1": {
-          "title": "Authorized Image.",
+          "title": "Authorized Image",
           "id": 12
         },
         "2": {
-          "title": "OS Hardening.",
-          "id": 14
+          "title": "Systems Hardening",
+          "id": 14,
+          "ideas": {
+            "1": {
+              "title": "NW devices",
+              "id": 68
+            },
+            "2": {
+              "title": "OS",
+              "id": 69
+            },
+            "3": {
+              "title": "DB/Middleware/Other components",
+              "id": 70
+            }
+          }
         },
         "3": {
           "title": "Systems patching",
@@ -26,136 +40,6 @@
         "5": {
           "title": "Malware scananing",
           "id": 17
-        },
-        "4.5": {
-          "title": "Application Blacklisting",
-          "id": 18,
-          "attr": {
-            "style": {}
-          }
-        }
-      }
-    },
-    "-3": {
-      "title": "SDLC and Change management",
-      "id": 9,
-      "ideas": {
-        "1": {
-          "title": "Change management process",
-          "id": 47
-        },
-        "2": {
-          "title": "Changes performed at agreed time window",
-          "id": 49
-        },
-        "3": {
-          "title": "Continuous delivery",
-          "id": 50
-        }
-      }
-    },
-    "12.25": {
-      "title": "Application Security ",
-      "id": 5,
-      "attr": {
-        "position": [
-          442.5,
-          -344,
-          10
-        ],
-        "style": {}
-      },
-      "ideas": {
-        "1": {
-          "title": "HTTP content scanning",
-          "id": 20
-        },
-        "2": {
-          "title": "HTTPS content scanning",
-          "id": 21
-        },
-        "3": {
-          "title": "Alternate application content scanning",
-          "id": 22
-        }
-      }
-    },
-    "-1.25": {
-      "title": "Security Logging and Monitoring",
-      "id": 8,
-      "attr": {
-        "style": {},
-        "position": [
-          422.5,
-          85,
-          9
-        ]
-      },
-      "ideas": {
-        "1": {
-          "title": "Syslog enabled",
-          "id": 41
-        },
-        "2": {
-          "title": "Logs sent to SIEM",
-          "id": 42
-        },
-        "3": {
-          "title": "User access log",
-          "id": 43
-        },
-        "4": {
-          "title": "Firewall logs",
-          "id": 44
-        }
-      }
-    },
-    "-0.5": {
-      "title": "Network Security...",
-      "id": 7,
-      "attr": {
-        "style": {}
-      },
-      "ideas": {
-        "1": {
-          "title": "Proxy support",
-          "id": 28
-        },
-        "2": {
-          "title": "IDS",
-          "id": 29
-        },
-        "3": {
-          "title": "IPS & Packet inspection",
-          "id": 30
-        },
-        "4": {
-          "title": "DDoS protection",
-          "id": 31
-        },
-        "5": {
-          "title": "Firewall",
-          "id": 33
-        },
-        "6": {
-          "title": "Load balancing",
-          "id": 34
-        },
-        "7": {
-          "title": "Virtual private cloud security",
-          "id": 35
-        },
-        "8": {
-          "title": "Firewall configuration",
-          "id": 36
-        },
-        "9": {
-          "title": "Geo-Location",
-          "id": 37
-        },
-        "10": {
-          "title": "Security groups",
-          "id": 38
         }
       }
     },
@@ -163,38 +47,76 @@
       "title": "Authentication and Access control",
       "id": 6,
       "attr": {
-        "style": {}
+        "style": {},
+        "position": [
+          284.5,
+          -466,
+          16
+        ]
       },
       "ideas": {
-        "1": {
-          "title": "Password policy",
-          "id": 45
-        },
-        "2": {
-          "title": "Identity federation",
-          "id": 26,
-          "attr": {
-            "style": {}
+        "4": {
+          "title": "Administration",
+          "id": 61,
+          "ideas": {
+            "1": {
+              "title": "Identity federation",
+              "id": 26,
+              "attr": {
+                "style": {}
+              }
+            },
+            "2": {
+              "title": "Password policy",
+              "id": 45,
+              "attr": {
+                "style": {}
+              }
+            },
+            "3": {
+              "title": "2-factor authentication",
+              "id": 27,
+              "attr": {
+                "style": {}
+              }
+            },
+            "4": {
+              "title": "Security groups",
+              "id": 38,
+              "attr": {
+                "style": {}
+              }
+            }
           }
         },
-        "3": {
-          "title": "2-factor authentication",
-          "id": 27,
+        "5": {
+          "title": "Non Administration",
+          "id": 62,
+          "ideas": {
+            "1": {
+              "title": "Password policy",
+              "id": 63
+            },
+            "2": {
+              "title": "Identity federation ",
+              "id": 64,
+              "attr": {
+                "position": [
+                  77,
+                  46.5,
+                  1
+                ],
+                "style": {}
+              }
+            }
+          },
           "attr": {
-            "style": {}
-          }
-        },
-        "0.5": {
-          "title": "Client authentication",
-          "id": 23,
-          "ideas": {},
-          "attr": {
-            "style": {},
             "position": [
-              128.5,
-              -114,
+              447,
+              81.5,
               1
-            ]
+            ],
+            "style": {}
           }
         }
       }
@@ -205,9 +127,9 @@
       "attr": {
         "style": {},
         "position": [
-          142.5,
-          267,
-          8
+          666.5,
+          290,
+          13
         ]
       },
       "ideas": {
@@ -249,6 +171,183 @@
         "9": {
           "title": "Bastion Host",
           "id": 59
+        }
+      }
+    },
+    "27.25": {
+      "title": "Network Security...",
+      "id": 7,
+      "attr": {
+        "style": {},
+        "position": [
+          295.5,
+          59,
+          18
+        ]
+      },
+      "ideas": {
+        "9": {
+          "title": "Geo-Location",
+          "id": 37,
+          "attr": {
+            "style": {}
+          }
+        },
+        "10": {
+          "title": "Periodic VA",
+          "id": 71,
+          "attr": {
+            "style": {}
+          }
+        },
+        "11": {
+          "title": "Standard architecture",
+          "id": 65,
+          "ideas": {
+            "1": {
+              "title": "Outbound to Non MQ systems",
+              "id": 66,
+              "ideas": {
+                "1": {
+                  "title": "Layers...",
+                  "id": 72
+                }
+              }
+            },
+            "2": {
+              "title": "Inbound to MQ systems",
+              "id": 67,
+              "ideas": {
+                "1": {
+                  "title": "Layers...",
+                  "id": 73
+                }
+              }
+            },
+            "3": {
+              "title": "IDS /IPS/Content inspection",
+              "id": 29,
+              "attr": {
+                "style": {}
+              }
+            },
+            "5": {
+              "title": "DDoS protection",
+              "id": 31,
+              "attr": {
+                "style": {}
+              }
+            },
+            "6": {
+              "title": "Firewall",
+              "id": 33,
+              "attr": {
+                "style": {}
+              },
+              "ideas": {
+                "1": {
+                  "title": "Firewall configuration",
+                  "id": 36,
+                  "attr": {
+                    "style": {}
+                  }
+                }
+              }
+            },
+            "7": {
+              "title": "Load balancing",
+              "id": 34,
+              "attr": {
+                "style": {}
+              }
+            }
+          },
+          "attr": {
+            "position": [
+              232,
+              77,
+              1
+            ],
+            "style": {}
+          }
+        }
+      }
+    },
+    "29.75": {
+      "title": "SDLC and Change management",
+      "id": 9,
+      "ideas": {
+        "1": {
+          "title": "Change management process",
+          "id": 47
+        },
+        "2": {
+          "title": "Control of change application window",
+          "id": 49
+        },
+        "3": {
+          "title": "Continuous delivery",
+          "id": 50
+        }
+      },
+      "attr": {
+        "position": [
+          278.5,
+          87,
+          14
+        ],
+        "style": {}
+      }
+    },
+    "42.25": {
+      "title": "Security Logging and Monitoring",
+      "id": 8,
+      "attr": {
+        "style": {},
+        "position": [
+          233.5,
+          323,
+          15
+        ]
+      },
+      "ideas": {
+        "1": {
+          "title": "Syslog enabled",
+          "id": 41
+        },
+        "2": {
+          "title": "Logs sent to SIEM",
+          "id": 42
+        },
+        "3": {
+          "title": "User access log",
+          "id": 43
+        },
+        "4": {
+          "title": "Firewall logs",
+          "id": 44
+        }
+      }
+    },
+    "11.625": {
+      "title": "Application Security ",
+      "id": 5,
+      "attr": {
+        "position": [
+          590.5,
+          -506,
+          17
+        ],
+        "style": {}
+      },
+      "ideas": {
+        "2": {
+          "title": "Content scanning (HTTP/S/Other)",
+          "id": 21
+        },
+        "3": {
+          "title": "Secure development, testing and deployment",
+          "id": 60
         }
       }
     }
