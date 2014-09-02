@@ -97,15 +97,10 @@
               "title": "Password policy",
               "id": 63
             },
-            "2": {
-              "title": "Identity federation ",
-              "id": 64,
+            "3": {
+              "title": "2-Factor authentication",
+              "id": 79,
               "attr": {
-                "position": [
-                  77,
-                  46.5,
-                  1
-                ],
                 "style": {}
               }
             }
@@ -118,6 +113,10 @@
             ],
             "style": {}
           }
+        },
+        "6": {
+          "title": "Secure transmission and storage of passwords",
+          "id": 80
         }
       }
     },
@@ -127,9 +126,9 @@
       "attr": {
         "style": {},
         "position": [
-          666.5,
-          290,
-          13
+          650.5,
+          669,
+          22
         ]
       },
       "ideas": {
@@ -163,7 +162,7 @@
       }
     },
     "27.25": {
-      "title": "Network Security...",
+      "title": "Network Security",
       "id": 7,
       "attr": {
         "style": {},
@@ -188,8 +187,8 @@
             "style": {}
           }
         },
-        "11": {
-          "title": "Standard architecture",
+        "25": {
+          "title": "Security architecture",
           "id": 65,
           "ideas": {
             "1": {
@@ -197,9 +196,58 @@
               "id": 66,
               "ideas": {
                 "1": {
+                  "title": "IDS /IPS/Content inspection",
+                  "id": 29,
+                  "attr": {
+                    "style": {}
+                  },
+                  "ideas": {}
+                },
+                "2": {
+                  "title": "DDoS protection",
+                  "id": 31,
+                  "attr": {
+                    "style": {}
+                  }
+                },
+                "4": {
+                  "title": "Firewall",
+                  "id": 33,
+                  "attr": {
+                    "style": {}
+                  },
+                  "ideas": {
+                    "1": {
+                      "title": "Firewall configuration",
+                      "id": 36,
+                      "attr": {
+                        "style": {}
+                      }
+                    }
+                  }
+                },
+                "5": {
+                  "title": "Load balancing",
+                  "id": 34,
+                  "attr": {
+                    "style": {}
+                  }
+                },
+                "0.5": {
                   "title": "Layers...",
-                  "id": 72
+                  "id": 73,
+                  "attr": {
+                    "style": {},
+                    "position": [
+                      191,
+                      -169,
+                      1
+                    ]
+                  }
                 }
+              },
+              "attr": {
+                "style": {}
               }
             },
             "2": {
@@ -207,56 +255,56 @@
               "id": 67,
               "ideas": {
                 "1": {
-                  "title": "Layers...",
-                  "id": 73
-                }
-              }
-            },
-            "3": {
-              "title": "IDS /IPS/Content inspection",
-              "id": 29,
-              "attr": {
-                "style": {}
-              }
-            },
-            "5": {
-              "title": "DDoS protection",
-              "id": 31,
-              "attr": {
-                "style": {}
-              }
-            },
-            "6": {
-              "title": "Firewall",
-              "id": 33,
-              "attr": {
-                "style": {}
-              },
-              "ideas": {
-                "1": {
-                  "title": "Firewall configuration",
-                  "id": 36,
+                  "title": "Firewall",
                   "attr": {
-                    "style": {}
-                  }
+                    "style": {},
+                    "position": [
+                      250,
+                      -32.75,
+                      3
+                    ]
+                  },
+                  "ideas": {
+                    "1": {
+                      "title": "Firewall configuration",
+                      "attr": {
+                        "style": {}
+                      },
+                      "id": 83
+                    }
+                  },
+                  "id": 82
+                },
+                "2": {
+                  "title": "IDS /IPS/Content inspection",
+                  "attr": {
+                    "style": {},
+                    "position": [
+                      270,
+                      37.75,
+                      2
+                    ]
+                  },
+                  "id": 81
                 }
-              }
-            },
-            "7": {
-              "title": "Load balancing",
-              "id": 34,
+              },
               "attr": {
-                "style": {}
+                "style": {},
+                "position": [
+                  143,
+                  103.75,
+                  1
+                ]
               }
             }
           },
           "attr": {
+            "style": {},
             "position": [
-              232,
-              77,
+              171,
+              102.875,
               1
-            ],
-            "style": {}
+            ]
           }
         },
         "10.5": {
@@ -287,9 +335,9 @@
       },
       "attr": {
         "position": [
-          278.5,
-          87,
-          14
+          360.5,
+          478,
+          23
         ],
         "style": {}
       }
@@ -300,9 +348,9 @@
       "attr": {
         "style": {},
         "position": [
-          233.5,
-          323,
-          15
+          221.5,
+          765,
+          21
         ]
       },
       "ideas": {
@@ -361,9 +409,9 @@
       "id": 5,
       "attr": {
         "position": [
-          590.5,
-          -506,
-          17
+          566.5,
+          -670,
+          24
         ],
         "style": {}
       },
