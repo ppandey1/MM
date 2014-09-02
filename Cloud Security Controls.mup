@@ -453,8 +453,13 @@
       }
     },
     "-1": {
-      "title": "Security Organization",
-      "id": 85
+      "title": "Security Governance",
+      "id": 85,
+      "attr": {
+        "style": {
+          "background": "#99cc00"
+        }
+      }
     },
     "-2": {
       "title": "BCP /DR",
