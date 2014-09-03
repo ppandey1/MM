@@ -57,9 +57,9 @@
       "attr": {
         "style": {},
         "position": [
-          284.5,
-          -466,
-          16
+          279.5,
+          -401,
+          28
         ]
       },
       "ideas": {
@@ -458,12 +458,27 @@
       "attr": {
         "style": {
           "background": "#99cc00"
-        }
+        },
+        "position": [
+          231.5,
+          -115,
+          26
+        ]
       }
     },
     "-2": {
       "title": "BCP /DR",
-      "id": 86
+      "id": 86,
+      "attr": {
+        "position": [
+          291.5,
+          74,
+          27
+        ],
+        "style": {
+          "background": "#ff6600"
+        }
+      }
     }
   },
   "links": []
