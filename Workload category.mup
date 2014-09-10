@@ -1,0 +1,150 @@
+{
+  "title": "Workload",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "1": {
+      "title": "Publically accessible content ",
+      "id": 2,
+      "ideas": {
+        "1": {
+          "title": "No protection required",
+          "id": 3,
+          "ideas": {
+            "1": {
+              "title": "Public External",
+              "id": 4,
+              "attr": {
+                "style": {
+                  "background": "#00ff00"
+                },
+                "position": [
+                  423.5,
+                  1.5,
+                  1
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "11": {
+      "title": "Private content",
+      "id": 5,
+      "attr": {
+        "position": [
+          102.5,
+          112.5,
+          1
+        ],
+        "style": {}
+      },
+      "ideas": {
+        "2": {
+          "title": "For MQ customers (Retail  / Enterprise)",
+          "id": 7,
+          "attr": {
+            "position": [
+              167.5,
+              -99,
+              6
+            ],
+            "style": {}
+          },
+          "ideas": {
+            "1": {
+              "title": "Private External",
+              "id": 10,
+              "attr": {
+                "style": {
+                  "background": "#ff9900"
+                },
+                "position": [
+                  428.5,
+                  29,
+                  1
+                ]
+              }
+            }
+          }
+        },
+        "13": {
+          "title": "B2B links / information exchange",
+          "id": 11,
+          "attr": {
+            "position": [
+              172.5,
+              5,
+              11
+            ],
+            "style": {}
+          },
+          "ideas": {}
+        },
+        "14": {
+          "title": "All others with access to non MQ staff",
+          "id": 12,
+          "attr": {
+            "position": [
+              208.5,
+              101,
+              14
+            ],
+            "style": {}
+          }
+        },
+        "24": {
+          "title": "For MQ staff Only",
+          "id": 6,
+          "attr": {
+            "position": [
+              35,
+              235,
+              15
+            ],
+            "style": {}
+          },
+          "ideas": {
+            "1": {
+              "title": "Private Internal",
+              "id": 13,
+              "attr": {
+                "position": [
+                  483,
+                  -38,
+                  1
+                ],
+                "style": {
+                  "background": "#ffff00"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "links": [
+    {
+      "ideaIdFrom": 11,
+      "ideaIdTo": 10,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 12,
+      "ideaIdTo": 10,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    }
+  ]
+}
